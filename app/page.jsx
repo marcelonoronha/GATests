@@ -1,20 +1,18 @@
-import Feed from "@components/Feed";
-
 const Home = () => {
   return (
-    <section className="w-full flex-center flex-col">
-        <h1 className="head_text text-center">
-              Discover & Shaasdre
-              <br className="max-md:hidden" />
-              <span className="orange_gradient"> AI-Powered Prompts</span>
-          </h1>
-          <p className="desc text-center">
-            An open-source AI prompting tool for modern world to discover, create and share creative prompts
-          </p>
-
-          <Feed />
+    <section className="w-full flex-center flex-col home">
+      <h1 className="head_text text-center">
+        Discover & Study
+        <br className="max-md:hidden" />
+        <span className="blue_gradient">
+          Tools that help us in our daily lives!
+        </span>
+      </h1>
+      <p className="desc text-center">
+        Estudos sobre Google Analytics e Google Tag Manager.
+      </p>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
