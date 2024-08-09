@@ -5,18 +5,13 @@ import Image from "next/image";
 import IconButton from "./IconButton";
 import ShopIcon from "@public/assets/icons/shop.svg";
 import ChartIcon from "@public/assets/icons/chart.svg";
+import { GraduationIcon } from "@public/assets/icons";
 
 const Nav = () => {
   return (
-    <nav className="flex-col w-16 h-full pt-3 bg-cyan-700 pt-8 fixed top-0 left-0">
-      <Link href="/" className="flex flex-center pb-20">
-        <Image
-          src="/assets/images/logo.svg"
-          alt="Logo"
-          width={30}
-          height={30}
-          className="object-contain"
-        />
+    <nav className="flex-col w-full h-full bg-cyan-700 pt-8">
+      <Link href="/" className="flex pb-20 flex-center">
+        <IconButton Icon={GraduationIcon} id="home" className="fill-white" />
       </Link>
 
       {/* Desktop Navigation */}

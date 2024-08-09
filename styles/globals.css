@@ -7,10 +7,17 @@
 /* 
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 
 body {
   font-family: 'Figtree', sans-serif;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  
 }
 /*
 .home {
@@ -81,7 +88,7 @@ body {
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-row w-full h-full mx-auto;
+  @apply grid grid-cols-1 grid-cols-[4rem_1fr] w-full h-full;
 }
 
 .black_btn {

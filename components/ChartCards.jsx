@@ -5,8 +5,8 @@ import IconButton from "./IconButton";
 
 const ChartCards = () => {
   return (
-    <section className="h-full w-full flex-center mb-20">
-      <div className="grid grid-cols-1 grid-rows-[6rem_minmax(500px,_1fr)_16rem] gap-8 sm:grid-cols-2 lg:grid-cols-3 h-full w-full">
+    <section className="h-full w-full flex-center">
+      <div className="grid grid-cols-1 grid-rows-[100px_auto_minmax(100px,200px)] gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:grid-rows-[100px_auto_minmax(100px,200px)] w-full h-full">
         {/* Card Nivel Geral */}
         <div className="h-24 flex flex-row items-center flex-between col-span-2 p-8 px-8 bg-white rounded-lg shadow-md">
           <div className="flex flex-row h-full items-center gap-2">

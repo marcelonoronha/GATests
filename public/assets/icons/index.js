@@ -6,3 +6,4 @@ export { default as ChartIcon } from "./chart.svg";
 export { default as ShopIcon } from "./shop.svg";
 export { default as CloudIcon } from "./cloud.svg";
 export { default as FilterIcon } from "./filter.svg";
+export { default as GraduationIcon } from "./graduation.svg";

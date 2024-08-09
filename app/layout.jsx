@@ -17,7 +17,7 @@ const RootLayout = ({ children }) => {
           <div className="main"></div>
           <main className="app bg-gray-50">
             <Nav />
-            <div className="container w-full h-full my-10 ml-16 flex flex-row">
+            <div className="container mx-auto w-full h-auto my-10 flex flex-row itens-center">
               {children}
             </div>
           </main>
