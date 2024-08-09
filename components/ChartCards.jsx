@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { CloudIcon, MoneyIcon, FilterIcon } from "@public/assets/icons";
 import IconButton from "./IconButton";
+import IndicatorsTable from "./IndicatorsTable";
 
 const ChartCards = () => {
   return (
@@ -23,21 +24,7 @@ const ChartCards = () => {
             <span className="text-gray-500 font-normal">/34.034</span>
           </div>
         </div>
-        <div className="flex flex-col col-span-2 p-8 bg-white rounded-lg shadow-md">
-          <div className="flex flex-row flex-between items-center">
-            <span className="font-semibold text-cyan-700 uppercase tracking-widest">
-              Indicadores
-            </span>
-          </div>
-          <div className="flex m-auto text-gray-300">Em construção!</div>
-
-          <Link
-            href="/allresults"
-            className="flex w-full justify-center pt-4	m-auto mb-1 text-cyan-700 font-semibold tracking-wide border-t-2 border-gray-100"
-          >
-            Todos os resultados da equipe
-          </Link>
-        </div>
+        <IndicatorsTable />
         <div className="flex flex-col row-start-1 row-end-3 col-start-3 p-8 px-8 bg-white rounded-lg shadow-md">
           <div className="flex flex-row flex-between items-center">
             <span className="font-semibold text-cyan-700 uppercase tracking-widest">

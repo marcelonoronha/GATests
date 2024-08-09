@@ -5,7 +5,7 @@ import Provider from "@components/Provider";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata = {
-  title: "GAtests",
+  title: "Studying GA4 and GTM",
   description: "Learn and pratice GA4 and GTM",
 };
 
